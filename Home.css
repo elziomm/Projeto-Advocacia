@@ -60,7 +60,7 @@ img{max-width: 100%;}
 }
 
 #menu{
-	margin-left: 50px;
+	margin-left: 70px;
 	margin-top: 100px;
 	animation-name: menu;
 	animation-fill-mode: forwards;
@@ -68,21 +68,21 @@ img{max-width: 100%;}
 }
 
 #menu2{
-	margin-left: 50px;
+	margin-left: 70px;
 	margin-top: 95px;
 	animation-name: menu;
 	animation-fill-mode: forwards;
 	animation-duration: 0.5s;
 }
 #menu3{
-	margin-left: 50px;
+	margin-left: 70px;
 	margin-top: 100px;
 	animation-name: menu;
 	animation-fill-mode: forwards;
 	animation-duration: 0.7s;
 }
 #menu4{
-	top: -45%;
+	margin-top: -20%;
 	margin-right: 45px;
 	animation-name: menu;
 	animation-fill-mode: forwards;
@@ -90,7 +90,7 @@ img{max-width: 100%;}
 	float:right;
 }
 #menu5{
-	top: -45%;
+	top: 50%;
 	margin-right: 45px;
 	animation-name: menu;
 	animation-fill-mode: forwards;
@@ -98,7 +98,7 @@ img{max-width: 100%;}
 	float:right;
 }
 #menu6{
-	top: -50%;
+	top: 50%;
 	margin-right: 45px;
 	animation-name: menu;
 	animation-fill-mode: forwards;
