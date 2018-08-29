@@ -31,8 +31,8 @@ img{max-width: 100%;}
 }
 
 .lista ul{
-	padding:0px;
-    margin:0px;
+	margin: 0px;
+	padding:1%;
     background-color:#EDEDED;
     list-style:none;
     width: 100%;
@@ -63,17 +63,20 @@ img{max-width: 100%;}
 	position: relative;
 	float: right;
 	color: #921A1A;
-	margin-right: 2px;
+	margin-right: 2%;
 	font-weight: 450;
 }
 
 /* Páginas Adjacentes */
 
 .casas{
-	width: 100%;
+	width: 98%;
+	float: left;
+	text-align: left;
+	padding: 3% 4%;
+	margin: 1%;
 	position: relative;
 	clear: both;
-	padding: 2em;
 	background-image: url(img/tributario.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -81,17 +84,58 @@ img{max-width: 100%;}
 }
 
 .titulo{
+	width: 70%;
+	float: left;
 	text-align: left;
-	font-weight: 900px;
+}
+.titulo h2{
 	font-size: 3em;
+	color: #fff; font-weight: 700;
 }
 
-#lista{font-size: 2em; color: #fff; float: right; cursor: pointer; margin: 2% 3% 0 0;}
-#lista ul{width: 100%; float: left; text-align: center;}
-#lista li{padding: 1.5%;}
-#lista li a{ 2em; color: #fff; padding: 1.5% 3%;}
-#lista li a:hover{border: 2px solid green;}
+.buttons{
+	width: 25%;
+	float: right;
+	margin-top: 0;
+}
+.buttons i{
+	float: right;
+}
+.btn-cadastrar{
+	width: 100%;
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 5%;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #130400;
+}
+.btn-sobre{
+	width: 100%;
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 5%;
+	border-radius: 10px;
+	background-color: #130400;
+	color: #fff;
+	margin-top: 2%;
+}
 
+/* Conteúdo - Páginas Adjacentes */
+.servicos{width: 100%; float: left; padding: 3% 4%;}
+.servico{width: 80%; background-color: #fff; text-align: justify; border-radius: 7px; margin-bottom: 3%; margin-left: 8%;}
+.inner {padding: 5%;}
+.inner h1 {font-size: 1.5em; font-weight: 700;}
+.inner h4{font-size: 1.2em; color: #130400; margin-top: 2%;}
+.inner p{margin-top: 1%; text-align: justify; color: #130400; line-height: 1.5em;}
+
+/* NEWSLETTER */
+.newsletter {width: 98%; float: left; text-align: center; padding: 3% 4%; background-color: rgba(0,0,0,.4); margin: 1%;}
+.newsletter h2 {font-size: 1.5em; color: #fff; font-weight: 700;}
+.newsletter button {width: 20%; background-color: #fff; color: #130400; padding: 2%; border-radius: 5px; cursor: pointer; margin-top: 2%;}
+.newsletter i{position: absolute; font-size: 4em; margin-bottom: 1%; margin-top: -6%;}
 
 
 /* MENU DINÂMICO */
@@ -227,8 +271,9 @@ img{max-width: 100%;}
 
 /* RODAPÉ */
 .rodape{
-	position: absolute;
-	bottom: -10;
+	clear: both;
+	position: relative;
+	bottom: 0;
 	width: 100%;
 	float: left;
 	padding: 2% 3%;
