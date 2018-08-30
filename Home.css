@@ -77,11 +77,16 @@ img{max-width: 100%;}
 	margin: 1%;
 	position: relative;
 	clear: both;
-	background-image: url(img/tributario.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: contain;
 }
+#tri{background-image: url(img/tributario.png);}
+#pre{background-image: url(img/previdencia.jpg);}
+#pre h2{color: #696969;}
+#pe{background-image: url(img/penal.png);}
+#tra{background-image: url(img/trabalho.png);}
+#tra h2{color: #000000;}
 
 .titulo{
 	width: 70%;
@@ -134,8 +139,8 @@ img{max-width: 100%;}
 /* NEWSLETTER */
 .newsletter {width: 98%; float: left; text-align: center; padding: 3% 4%; background-color: rgba(0,0,0,.4); margin: 1%;}
 .newsletter h2 {font-size: 1.5em; color: #fff; font-weight: 700;}
-.newsletter button {width: 20%; background-color:  #921A1A; color: #130400; padding: 2%; border-radius: 5px; cursor: pointer; margin-top: 2%; font-size: 1em; font-weight: 750;}
-.newsletter i{position: absolute; font-size: 4em; margin-bottom: 1%; margin-top: -6%; color:  #921A1A;}
+.newsletter button {width: 20%; background-color:  #921A1A; color: #130400; padding: 2%; border-radius: 5px; cursor: pointer; margin-top: 2%; font-size: 1.2em; font-weight: 750;}
+.newsletter i{position: absolute; font-size: 4em; margin-bottom: 1%; margin-top: -6%; margin-left: -2%; color:  #921A1A;}
 
 
 /* MENU DINÂMICO */
@@ -152,7 +157,6 @@ img{max-width: 100%;}
 }
 .menu{
 	line-height: 2;
-
 	position: relative;
 	border-radius: 70px 70px 70px 70px;
 	background-color: #FFFAFA;
@@ -167,7 +171,7 @@ img{max-width: 100%;}
 
 #menu{
 	margin-left: 50px;
-	margin-top: 220px;
+	margin-top: 16%;
 	animation-name: menu;
 	animation-fill-mode: forwards;
 	animation-duration: 0.3s;
@@ -296,4 +300,8 @@ img{max-width: 100%;}
 	font-size: 0.8em;
 	margin-top: 2%;
 	color: rgba(255,255,255,0.7);
+}
+
+@media screen and (max-width: 390px) {
+	.banner{background-image: url(img/body.jpg);}
 }
