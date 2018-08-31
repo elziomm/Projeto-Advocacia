@@ -470,4 +470,21 @@ img{max-width: 100%;}
 	float:right;
 }
 
+/*IMPRIMIR*/
+
+.impressao{
+	width: 16%;
+	height: 2em;
+	position: relative;
+	margin-left: 40em;
+	border-style: outset;
+	border-width: medium;
+	border-radius: 2em 2em 2em 2em;
+	font-size-adjust: 0.5em 
+}
+.impressao:focus {border-style: inset;}
+
+#impressao{
+	margin-left: 0.5em;
+	font-size: 1.2em;
 }
