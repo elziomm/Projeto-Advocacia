@@ -91,6 +91,7 @@ img{max-width: 100%;}
 #tra{background-image: url(img/trabalho.png);}
 #tra h2{color: #000000;}
 
+
 .titulo{
 	width: 70%;
 	float: left;
@@ -139,6 +140,28 @@ img{max-width: 100%;}
 .inner h1 {font-size: 1.5em; font-weight: 700;}
 .inner h4{font-size: 1.2em; color: #130400; margin-top: 2%;}
 .inner p{margin-top: 1%; text-align: justify; color: #130400; line-height: 1.5em;}
+
+
+/*IMPRIMIR*/
+
+.impressao{
+	position: relative;
+	padding: 3% 4%;
+	margin: 1%;
+}
+
+.impressao i{
+	margin: 1%;
+	float: right;
+	font-size: 1.5em;
+
+}
+.impressao:focus {border-style: inset;}
+
+#impressao{
+	margin-left: 0.5em;
+	font-size: 1.2em;
+}
 
 /* NEWSLETTER */
 .newsletter {width: 98%; float: left; text-align: center; padding: 3% 4%; background-color: rgba(0,0,0,.4); margin: 1%;}
@@ -223,7 +246,11 @@ img{max-width: 100%;}
 	font-weight:bolder;
 	font-variant: small-caps;
 }
+
+
+
 /* FORMULÁRIO*/
+
 .fundofor{
 	background-image: url(img/fundo3.jpg);
 	background-attachment: fixed;
@@ -468,23 +495,4 @@ img{max-width: 100%;}
 	animation-fill-mode: forwards;
 	animation-duration: 0.8s;
 	float:right;
-}
-
-/*IMPRIMIR*/
-
-.impressao{
-	width: 16%;
-	height: 2em;
-	position: relative;
-	margin-left: 40em;
-	border-style: outset;
-	border-width: medium;
-	border-radius: 2em 2em 2em 2em;
-	font-size-adjust: 0.5em 
-}
-.impressao:focus {border-style: inset;}
-
-#impressao{
-	margin-left: 0.5em;
-	font-size: 1.2em;
 }
