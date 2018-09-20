@@ -85,6 +85,7 @@ img{max-width: 100%;}
 #con{background-image: url(img/fundo3.jpg); background-size: cover;}
 #con h2{color: #000000;}
 #tri{background-image: url(img/tributario.png);}
+#sobre{background-image: url(img/sobre.png); background-size: contain;}
 #pre{background-image: url(img/previdencia.jpg);}
 #pre h2{color: #696969;}
 #pe{background-image: url(img/penal.png);}
